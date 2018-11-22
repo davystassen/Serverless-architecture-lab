@@ -59,6 +59,7 @@ namespace TollBooth
                         stream.Position = 0;
                         // TODO 7 (Done): Asyncronously upload the blob from the memory stream.
                         await blob.UploadFromStreamAsync(stream);
+                        //TODO Niets
 
                         successful = true;
                     }
